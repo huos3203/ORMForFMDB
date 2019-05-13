@@ -35,6 +35,7 @@
 		84FD8FE3228913F200BC2BE6 /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FDD228913F200BC2BE6 /* FMDatabase+FTS3.m */; };
 		84FD8FE4228913F200BC2BE6 /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FDF228913F200BC2BE6 /* FMTokenizers.m */; };
 		84FD8FE82289161A00BC2BE6 /* BCDB-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FE72289161A00BC2BE6 /* BCDB-main.m */; };
+		84FD8FEA2289175E00BC2BE6 /* class UML.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FD8FE92289175E00BC2BE6 /* class UML.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		84FD8FE0228913F200BC2BE6 /* FMDatabase+FTS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+FTS3.h"; sourceTree = "<group>"; };
 		84FD8FE1228913F200BC2BE6 /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
 		84FD8FE72289161A00BC2BE6 /* BCDB-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BCDB-main.m"; sourceTree = "<group>"; };
+		84FD8FE92289175E00BC2BE6 /* class UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class UML.png"; sourceTree = "<group>"; };
 		E35287C6AE634843CC5EAE85 /* libPods-ORMForFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORMForFMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA6C38A18E137CBA7B18190 /* Pods-ORMForFMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORMForFMDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORMForFMDBTests/Pods-ORMForFMDBTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -326,6 +328,7 @@
 		84FD8FE52289145800BC2BE6 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				84FD8FE92289175E00BC2BE6 /* class UML.png */,
 				84FD8FD8228913DC00BC2BE6 /* FFDB-extra */,
 				84FD8FBA2289136700BC2BE6 /* BCSqliteORM */,
 			);
@@ -434,6 +437,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FD8FEA2289175E00BC2BE6 /* class UML.png in Resources */,
 				84FD8F8522890C3200BC2BE6 /* LaunchScreen.storyboard in Resources */,
 				84FD8F8222890C3200BC2BE6 /* Assets.xcassets in Resources */,
 				84FD8F8022890C3100BC2BE6 /* Main.storyboard in Resources */,
