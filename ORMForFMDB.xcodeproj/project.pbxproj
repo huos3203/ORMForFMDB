@@ -14,6 +14,10 @@
 		84FD8F8522890C3200BC2BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD8F8322890C3200BC2BE6 /* LaunchScreen.storyboard */; };
 		84FD8F8822890C3200BC2BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8F8722890C3200BC2BE6 /* main.m */; };
 		84FD8F9222890C3200BC2BE6 /* ORMForFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8F9122890C3200BC2BE6 /* ORMForFMDBTests.m */; };
+		84FD8FA722890E8500BC2BE6 /* SendFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FA222890E8500BC2BE6 /* SendFileManager.m */; };
+		84FD8FA822890E8500BC2BE6 /* LKDaoBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FA322890E8500BC2BE6 /* LKDaoBase.m */; };
+		84FD8FA922890E8500BC2BE6 /* ReceiveFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FA422890E8500BC2BE6 /* ReceiveFileManager.m */; };
+		84FD8FAD22890F2800BC2BE6 /* SandboxFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FAC22890F2700BC2BE6 /* SandboxFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,16 @@
 		84FD8F8D22890C3200BC2BE6 /* ORMForFMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORMForFMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD8F9122890C3200BC2BE6 /* ORMForFMDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORMForFMDBTests.m; sourceTree = "<group>"; };
 		84FD8F9322890C3200BC2BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD8F9C22890C9E00BC2BE6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84FD8FA122890E8500BC2BE6 /* SendFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendFileManager.h; sourceTree = "<group>"; };
+		84FD8FA222890E8500BC2BE6 /* SendFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendFileManager.m; sourceTree = "<group>"; };
+		84FD8FA322890E8500BC2BE6 /* LKDaoBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDaoBase.m; sourceTree = "<group>"; };
+		84FD8FA422890E8500BC2BE6 /* ReceiveFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveFileManager.m; sourceTree = "<group>"; };
+		84FD8FA522890E8500BC2BE6 /* ReceiveFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveFileManager.h; sourceTree = "<group>"; };
+		84FD8FA622890E8500BC2BE6 /* LKDaoBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDaoBase.h; sourceTree = "<group>"; };
+		84FD8FAA22890EEE00BC2BE6 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		84FD8FAB22890F2700BC2BE6 /* SandboxFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandboxFile.h; sourceTree = "<group>"; };
+		84FD8FAC22890F2700BC2BE6 /* SandboxFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandboxFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,7 @@
 		84FD8F6C22890C3100BC2BE6 = {
 			isa = PBXGroup;
 			children = (
+				84FD8F9C22890C9E00BC2BE6 /* README.md */,
 				84FD8F7722890C3100BC2BE6 /* ORMForFMDB */,
 				84FD8F9022890C3200BC2BE6 /* ORMForFMDBTests */,
 				84FD8F7622890C3100BC2BE6 /* Products */,
@@ -81,6 +96,7 @@
 		84FD8F7722890C3100BC2BE6 /* ORMForFMDB */ = {
 			isa = PBXGroup;
 			children = (
+				84FD8F9D22890DF500BC2BE6 /* 第一种 */,
 				84FD8F7822890C3100BC2BE6 /* AppDelegate.h */,
 				84FD8F7922890C3100BC2BE6 /* AppDelegate.m */,
 				84FD8F7B22890C3100BC2BE6 /* ViewController.h */,
@@ -101,6 +117,46 @@
 				84FD8F9322890C3200BC2BE6 /* Info.plist */,
 			);
 			path = ORMForFMDBTests;
+			sourceTree = "<group>";
+		};
+		84FD8F9D22890DF500BC2BE6 /* 第一种 */ = {
+			isa = PBXGroup;
+			children = (
+				84FD8FA022890E3600BC2BE6 /* DB */,
+				84FD8F9F22890E2B00BC2BE6 /* Model */,
+				84FD8F9E22890E2300BC2BE6 /* Dao */,
+			);
+			path = "第一种";
+			sourceTree = "<group>";
+		};
+		84FD8F9E22890E2300BC2BE6 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		84FD8F9F22890E2B00BC2BE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84FD8FA022890E3600BC2BE6 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				84FD8FAB22890F2700BC2BE6 /* SandboxFile.h */,
+				84FD8FAC22890F2700BC2BE6 /* SandboxFile.m */,
+				84FD8FAA22890EEE00BC2BE6 /* Singleton.h */,
+				84FD8FA622890E8500BC2BE6 /* LKDaoBase.h */,
+				84FD8FA322890E8500BC2BE6 /* LKDaoBase.m */,
+				84FD8FA522890E8500BC2BE6 /* ReceiveFileManager.h */,
+				84FD8FA422890E8500BC2BE6 /* ReceiveFileManager.m */,
+				84FD8FA122890E8500BC2BE6 /* SendFileManager.h */,
+				84FD8FA222890E8500BC2BE6 /* SendFileManager.m */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,9 +259,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FD8FA822890E8500BC2BE6 /* LKDaoBase.m in Sources */,
 				84FD8F7D22890C3100BC2BE6 /* ViewController.m in Sources */,
+				84FD8FA722890E8500BC2BE6 /* SendFileManager.m in Sources */,
+				84FD8FA922890E8500BC2BE6 /* ReceiveFileManager.m in Sources */,
 				84FD8F8822890C3200BC2BE6 /* main.m in Sources */,
 				84FD8F7A22890C3100BC2BE6 /* AppDelegate.m in Sources */,
+				84FD8FAD22890F2800BC2BE6 /* SandboxFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
