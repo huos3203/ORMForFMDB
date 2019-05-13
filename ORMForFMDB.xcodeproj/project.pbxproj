@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32AB3BAF43505FA903647CAA /* libPods-ORMForFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E35287C6AE634843CC5EAE85 /* libPods-ORMForFMDB.a */; };
+		815337611C0DD9BA134ABE66 /* libPods-ORMForFMDBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC17A6696D014A5167A35A8 /* libPods-ORMForFMDBTests.a */; };
 		84FD8F7A22890C3100BC2BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8F7922890C3100BC2BE6 /* AppDelegate.m */; };
 		84FD8F7D22890C3100BC2BE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8F7C22890C3100BC2BE6 /* ViewController.m */; };
 		84FD8F8022890C3100BC2BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD8F7E22890C3100BC2BE6 /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 		84FD8FA822890E8500BC2BE6 /* LKDaoBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FA322890E8500BC2BE6 /* LKDaoBase.m */; };
 		84FD8FA922890E8500BC2BE6 /* ReceiveFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FA422890E8500BC2BE6 /* ReceiveFileManager.m */; };
 		84FD8FAD22890F2800BC2BE6 /* SandboxFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FAC22890F2700BC2BE6 /* SandboxFile.m */; };
+		84FD8FB1228911DA00BC2BE6 /* VerificationCodeDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FB0228911D900BC2BE6 /* VerificationCodeDao.m */; };
+		84FD8FB4228911F200BC2BE6 /* VerificationCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FB3228911F200BC2BE6 /* VerificationCodeModel.m */; };
+		84FD8FB82289126500BC2BE6 /* DataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FB62289126500BC2BE6 /* DataFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5629DB6D12D160742B1B8269 /* Pods-ORMForFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORMForFMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORMForFMDB/Pods-ORMForFMDB.release.xcconfig"; sourceTree = "<group>"; };
+		65333C1A2F99B0974BBDE556 /* Pods-ORMForFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORMForFMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORMForFMDB/Pods-ORMForFMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		6CC17A6696D014A5167A35A8 /* libPods-ORMForFMDBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORMForFMDBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D64CAFB1B31CBDBD56F2021 /* Pods-ORMForFMDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORMForFMDBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORMForFMDBTests/Pods-ORMForFMDBTests.debug.xcconfig"; sourceTree = "<group>"; };
 		84FD8F7522890C3100BC2BE6 /* ORMForFMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORMForFMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD8F7822890C3100BC2BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84FD8F7922890C3100BC2BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,14 @@
 		84FD8FAA22890EEE00BC2BE6 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		84FD8FAB22890F2700BC2BE6 /* SandboxFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandboxFile.h; sourceTree = "<group>"; };
 		84FD8FAC22890F2700BC2BE6 /* SandboxFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandboxFile.m; sourceTree = "<group>"; };
+		84FD8FAF228911D900BC2BE6 /* VerificationCodeDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationCodeDao.h; sourceTree = "<group>"; };
+		84FD8FB0228911D900BC2BE6 /* VerificationCodeDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeDao.m; sourceTree = "<group>"; };
+		84FD8FB2228911F200BC2BE6 /* VerificationCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationCodeModel.h; sourceTree = "<group>"; };
+		84FD8FB3228911F200BC2BE6 /* VerificationCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeModel.m; sourceTree = "<group>"; };
+		84FD8FB62289126500BC2BE6 /* DataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFactory.m; sourceTree = "<group>"; };
+		84FD8FB72289126500BC2BE6 /* DataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFactory.h; sourceTree = "<group>"; };
+		E35287C6AE634843CC5EAE85 /* libPods-ORMForFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORMForFMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA6C38A18E137CBA7B18190 /* Pods-ORMForFMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORMForFMDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORMForFMDBTests/Pods-ORMForFMDBTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AB3BAF43505FA903647CAA /* libPods-ORMForFMDB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815337611C0DD9BA134ABE66 /* libPods-ORMForFMDBTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2885B8203F8F3924D774A177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E35287C6AE634843CC5EAE85 /* libPods-ORMForFMDB.a */,
+				6CC17A6696D014A5167A35A8 /* libPods-ORMForFMDBTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84FD8F6C22890C3100BC2BE6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				84FD8F7722890C3100BC2BE6 /* ORMForFMDB */,
 				84FD8F9022890C3200BC2BE6 /* ORMForFMDBTests */,
 				84FD8F7622890C3100BC2BE6 /* Products */,
+				D8A799ECCC059EA9CF19E8E0 /* Pods */,
+				2885B8203F8F3924D774A177 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +152,10 @@
 		84FD8F9D22890DF500BC2BE6 /* 第一种 */ = {
 			isa = PBXGroup;
 			children = (
+				84FD8FB52289124400BC2BE6 /* Util */,
 				84FD8FA022890E3600BC2BE6 /* DB */,
-				84FD8F9F22890E2B00BC2BE6 /* Model */,
 				84FD8F9E22890E2300BC2BE6 /* Dao */,
+				84FD8F9F22890E2B00BC2BE6 /* Model */,
 			);
 			path = "第一种";
 			sourceTree = "<group>";
@@ -132,6 +163,8 @@
 		84FD8F9E22890E2300BC2BE6 /* Dao */ = {
 			isa = PBXGroup;
 			children = (
+				84FD8FAF228911D900BC2BE6 /* VerificationCodeDao.h */,
+				84FD8FB0228911D900BC2BE6 /* VerificationCodeDao.m */,
 			);
 			path = Dao;
 			sourceTree = "<group>";
@@ -139,6 +172,8 @@
 		84FD8F9F22890E2B00BC2BE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84FD8FB2228911F200BC2BE6 /* VerificationCodeModel.h */,
+				84FD8FB3228911F200BC2BE6 /* VerificationCodeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,17 +181,37 @@
 		84FD8FA022890E3600BC2BE6 /* DB */ = {
 			isa = PBXGroup;
 			children = (
-				84FD8FAB22890F2700BC2BE6 /* SandboxFile.h */,
-				84FD8FAC22890F2700BC2BE6 /* SandboxFile.m */,
-				84FD8FAA22890EEE00BC2BE6 /* Singleton.h */,
 				84FD8FA622890E8500BC2BE6 /* LKDaoBase.h */,
 				84FD8FA322890E8500BC2BE6 /* LKDaoBase.m */,
+				84FD8FB72289126500BC2BE6 /* DataFactory.h */,
+				84FD8FB62289126500BC2BE6 /* DataFactory.m */,
 				84FD8FA522890E8500BC2BE6 /* ReceiveFileManager.h */,
 				84FD8FA422890E8500BC2BE6 /* ReceiveFileManager.m */,
 				84FD8FA122890E8500BC2BE6 /* SendFileManager.h */,
 				84FD8FA222890E8500BC2BE6 /* SendFileManager.m */,
 			);
 			path = DB;
+			sourceTree = "<group>";
+		};
+		84FD8FB52289124400BC2BE6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				84FD8FAB22890F2700BC2BE6 /* SandboxFile.h */,
+				84FD8FAC22890F2700BC2BE6 /* SandboxFile.m */,
+				84FD8FAA22890EEE00BC2BE6 /* Singleton.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D8A799ECCC059EA9CF19E8E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65333C1A2F99B0974BBDE556 /* Pods-ORMForFMDB.debug.xcconfig */,
+				5629DB6D12D160742B1B8269 /* Pods-ORMForFMDB.release.xcconfig */,
+				7D64CAFB1B31CBDBD56F2021 /* Pods-ORMForFMDBTests.debug.xcconfig */,
+				ECA6C38A18E137CBA7B18190 /* Pods-ORMForFMDBTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FD8F9622890C3200BC2BE6 /* Build configuration list for PBXNativeTarget "ORMForFMDB" */;
 			buildPhases = (
+				90EDC4500F28B4E2D9D28BC0 /* [CP] Check Pods Manifest.lock */,
 				84FD8F7122890C3100BC2BE6 /* Sources */,
 				84FD8F7222890C3100BC2BE6 /* Frameworks */,
 				84FD8F7322890C3100BC2BE6 /* Resources */,
@@ -183,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FD8F9922890C3200BC2BE6 /* Build configuration list for PBXNativeTarget "ORMForFMDBTests" */;
 			buildPhases = (
+				25854F126A1FCB21C7F45D10 /* [CP] Check Pods Manifest.lock */,
 				84FD8F8922890C3200BC2BE6 /* Sources */,
 				84FD8F8A22890C3200BC2BE6 /* Frameworks */,
 				84FD8F8B22890C3200BC2BE6 /* Resources */,
@@ -254,6 +311,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25854F126A1FCB21C7F45D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ORMForFMDBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90EDC4500F28B4E2D9D28BC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ORMForFMDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84FD8F7122890C3100BC2BE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,11 +365,14 @@
 			files = (
 				84FD8FA822890E8500BC2BE6 /* LKDaoBase.m in Sources */,
 				84FD8F7D22890C3100BC2BE6 /* ViewController.m in Sources */,
+				84FD8FB82289126500BC2BE6 /* DataFactory.m in Sources */,
+				84FD8FB1228911DA00BC2BE6 /* VerificationCodeDao.m in Sources */,
 				84FD8FA722890E8500BC2BE6 /* SendFileManager.m in Sources */,
 				84FD8FA922890E8500BC2BE6 /* ReceiveFileManager.m in Sources */,
 				84FD8F8822890C3200BC2BE6 /* main.m in Sources */,
 				84FD8F7A22890C3100BC2BE6 /* AppDelegate.m in Sources */,
 				84FD8FAD22890F2800BC2BE6 /* SandboxFile.m in Sources */,
+				84FD8FB4228911F200BC2BE6 /* VerificationCodeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +528,7 @@
 		};
 		84FD8F9722890C3200BC2BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65333C1A2F99B0974BBDE556 /* Pods-ORMForFMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +545,7 @@
 		};
 		84FD8F9822890C3200BC2BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5629DB6D12D160742B1B8269 /* Pods-ORMForFMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +562,7 @@
 		};
 		84FD8F9A22890C3200BC2BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D64CAFB1B31CBDBD56F2021 /* Pods-ORMForFMDBTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +581,7 @@
 		};
 		84FD8F9B22890C3200BC2BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA6C38A18E137CBA7B18190 /* Pods-ORMForFMDBTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
