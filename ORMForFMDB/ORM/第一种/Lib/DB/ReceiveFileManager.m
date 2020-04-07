@@ -8,11 +8,11 @@
 
 #import "ReceiveFileManager.h"
 #import "FMDatabase.h"
-#import "NSDate+String.h"
+//#import "NSDate+String.h"
 #import "SandboxFile.h"
-#import "PycFile.h"
-#import "SeriesDao.h"
-#import "SeriesModel.h"
+//#import "PycFile.h"
+//#import "SeriesDao.h"
+//#import "SeriesModel.h"
 
 
 @interface ReceiveFileManager()
@@ -65,6 +65,7 @@ singleton_implementation(ReceiveFileManager)
     [rs close];
     return returnBool;
 }
+/**
 -(BOOL)saveReceiveFile:(OutFile *)receiveFile
 {
     if (![_db open]) return NO;
@@ -249,7 +250,7 @@ singleton_implementation(ReceiveFileManager)
     [_db close];
     return result;
 }
-
+*/
 
 
 -(BOOL)updateReceiveFileByLogName:(NSString *)logName

@@ -8,7 +8,7 @@
 
 #import "BCORMHelper.h"
 #import "FMDB.h"
-#import "ORMDatabaseProtocol.h"
+//#import "ORMDatabaseProtocol.h"
 #import "BCORMEntityProtocol.h"
 #import "BCSqliteType.h"
 #import "BCSqlInt.h"

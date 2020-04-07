@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "Singleton.h"
-#import "OutFile.h"
 
 @interface ReceiveFileManager : NSObject
 
@@ -17,11 +16,11 @@ singleton_interface(ReceiveFileManager)
 // 创建表方法
 - (void)createTable;
 
--(BOOL)saveReceiveFile:(OutFile *)receiveFile;
-
--(BOOL)updateReceiveFile:(OutFile *)receiveFile;
-
--(BOOL)updateRefreshReceiveFile:(OutFile *)receiveFile;
+//-(BOOL)saveReceiveFile:(OutFile *)receiveFile;
+//
+//-(BOOL)updateReceiveFile:(OutFile *)receiveFile;
+//
+//-(BOOL)updateRefreshReceiveFile:(OutFile *)receiveFile;
 
 -(BOOL)deleteReceiveFile:(NSInteger)fileId LogName:(NSString *)logname;
 
@@ -35,9 +34,9 @@ singleton_interface(ReceiveFileManager)
 -(BOOL)updateReceiveFileLocalPath:(NSInteger)fileId newPath:(NSString *)filePath;
 -(BOOL)updateReceiveFileIsChangeTime:(NSInteger)fileId isChangeTime:(NSInteger)isChangeTime;
 -(NSString *)selectReceiveFileFistOpenTimeByFileId:(NSInteger)fileId;
--(OutFile *)fetchReceiveFileByFileId:(NSInteger)receiveFileId LogName:(NSString *)logname;
-
--(OutFile *)fetchReceiveFileCellByFileId:(NSInteger)receiveFileId LogName:(NSString *)logname;
+//-(OutFile *)fetchReceiveFileByFileId:(NSInteger)receiveFileId LogName:(NSString *)logname;
+//
+//-(OutFile *)fetchReceiveFileCellByFileId:(NSInteger)receiveFileId LogName:(NSString *)logname;
 
 -(NSInteger)countOfReceiveFile:(NSString *)logName;
 
@@ -91,7 +90,7 @@ singleton_interface(ReceiveFileManager)
  *
  *  @return 更新是否成功
  */
--(BOOL)updateByFileIdReceiveFile:(OutFile *)receiveFile;
+//-(BOOL)updateByFileIdReceiveFile:(OutFile *)receiveFile;
 
 -(NSData *)fetchEncodeKey:(NSInteger)fileId;
 /**

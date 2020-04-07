@@ -16,13 +16,8 @@
 		84FD8F8522890C3200BC2BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD8F8322890C3200BC2BE6 /* LaunchScreen.storyboard */; };
 		84FD8F8822890C3200BC2BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8F8722890C3200BC2BE6 /* main.m */; };
 		84FD8F9222890C3200BC2BE6 /* ORMForFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8F9122890C3200BC2BE6 /* ORMForFMDBTests.m */; };
-		84FD8FA722890E8500BC2BE6 /* SendFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FA222890E8500BC2BE6 /* SendFileManager.m */; };
-		84FD8FA822890E8500BC2BE6 /* LKDaoBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FA322890E8500BC2BE6 /* LKDaoBase.m */; };
-		84FD8FA922890E8500BC2BE6 /* ReceiveFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FA422890E8500BC2BE6 /* ReceiveFileManager.m */; };
 		84FD8FAD22890F2800BC2BE6 /* SandboxFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FAC22890F2700BC2BE6 /* SandboxFile.m */; };
-		84FD8FB1228911DA00BC2BE6 /* VerificationCodeDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FB0228911D900BC2BE6 /* VerificationCodeDao.m */; };
 		84FD8FB4228911F200BC2BE6 /* VerificationCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FB3228911F200BC2BE6 /* VerificationCodeModel.m */; };
-		84FD8FB82289126500BC2BE6 /* DataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FB62289126500BC2BE6 /* DataFactory.m */; };
 		84FD8FD02289136700BC2BE6 /* BCSqliteType.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FBD2289136700BC2BE6 /* BCSqliteType.m */; };
 		84FD8FD12289136700BC2BE6 /* BCSqlInt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FBE2289136700BC2BE6 /* BCSqlInt.m */; };
 		84FD8FD22289136700BC2BE6 /* BCSqlReal.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD8FBF2289136700BC2BE6 /* BCSqlReal.m */; };
@@ -111,6 +106,7 @@
 		84FD8FE72289161A00BC2BE6 /* BCDB-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BCDB-main.m"; sourceTree = "<group>"; };
 		84FD8FE92289175E00BC2BE6 /* class UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class UML.png"; sourceTree = "<group>"; };
 		84FD8FEC228918A900BC2BE6 /* FMDB-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDB-main.m"; sourceTree = "<group>"; };
+		84FD8FEF22891AF200BC2BE6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		E35287C6AE634843CC5EAE85 /* libPods-ORMForFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORMForFMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA6C38A18E137CBA7B18190 /* Pods-ORMForFMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORMForFMDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORMForFMDBTests/Pods-ORMForFMDBTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +134,7 @@
 		2885B8203F8F3924D774A177 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84FD8FEF22891AF200BC2BE6 /* libsqlite3.0.tbd */,
 				E35287C6AE634843CC5EAE85 /* libPods-ORMForFMDB.a */,
 				6CC17A6696D014A5167A35A8 /* libPods-ORMForFMDBTests.a */,
 			);
@@ -226,10 +223,10 @@
 				84FD8FA322890E8500BC2BE6 /* LKDaoBase.m */,
 				84FD8FB72289126500BC2BE6 /* DataFactory.h */,
 				84FD8FB62289126500BC2BE6 /* DataFactory.m */,
-				84FD8FA522890E8500BC2BE6 /* ReceiveFileManager.h */,
-				84FD8FA422890E8500BC2BE6 /* ReceiveFileManager.m */,
 				84FD8FA122890E8500BC2BE6 /* SendFileManager.h */,
 				84FD8FA222890E8500BC2BE6 /* SendFileManager.m */,
+				84FD8FA522890E8500BC2BE6 /* ReceiveFileManager.h */,
+				84FD8FA422890E8500BC2BE6 /* ReceiveFileManager.m */,
 			);
 			path = DB;
 			sourceTree = "<group>";
@@ -516,15 +513,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FD8FD52289136700BC2BE6 /* BCReferences.m in Sources */,
-				84FD8FA822890E8500BC2BE6 /* LKDaoBase.m in Sources */,
 				84FD8F7D22890C3100BC2BE6 /* ViewController.m in Sources */,
 				84FD8FD72289136700BC2BE6 /* BCSqlParameter.m in Sources */,
 				84FD8FD32289136700BC2BE6 /* BCSqlText.m in Sources */,
 				84FD8FD02289136700BC2BE6 /* BCSqliteType.m in Sources */,
-				84FD8FB82289126500BC2BE6 /* DataFactory.m in Sources */,
-				84FD8FB1228911DA00BC2BE6 /* VerificationCodeDao.m in Sources */,
-				84FD8FA722890E8500BC2BE6 /* SendFileManager.m in Sources */,
-				84FD8FA922890E8500BC2BE6 /* ReceiveFileManager.m in Sources */,
 				84FD8F8822890C3200BC2BE6 /* main.m in Sources */,
 				84FD8F7A22890C3100BC2BE6 /* AppDelegate.m in Sources */,
 				84FD8FD12289136700BC2BE6 /* BCSqlInt.m in Sources */,
